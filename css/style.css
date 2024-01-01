@@ -1,0 +1,87 @@
+
+@import url(https://fonts.googleapis.com/css?family=Figtree);  
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+
+p{
+    font-size: 16px;
+}
+
+h2,h3{
+    font-weight: 800;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 370px; /* Set your desired width */
+    height: 520px; /* Set your desired height */
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+}
+
+.theme{
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title{
+    font-weight: 800;
+}
+
+.title:hover {
+    color:  hsl(47, 88%, 63%);
+}
+
+.container:hover{
+    box-shadow: 10px 10px black;
+}
+
+.description{
+    position: absolute;
+    padding: 28px;
+    top: 38%;
+}
+
+.category{
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    width: 80px; /* Adjust width as needed */
+    height: 40px;
+    text-align: center; /* Center text within the box */
+    border-radius: 5px;
+    line-height: 40px;
+    font-weight: bold;
+
+}
+
+.para{
+    color: hsl(0, 0%, 50%);
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+}
+
+.image-avatar{
+    width: 35px;
+    height: 35px;
+}
+
+.avatar-name{
+    margin-left: 10px;
+    font-weight: bold;
+}
